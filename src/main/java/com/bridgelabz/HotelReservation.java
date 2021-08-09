@@ -1,5 +1,4 @@
 package com.bridgelabz;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -106,5 +105,14 @@ public class HotelReservation {
         System.out.println(hotelName+" & Total Rate : "+minimumPrice);
         return hotelName;
 
+    }
+
+    public void addRewardCustomersRates(String hotelName, int rateRewardWeekdays, int rateRewardWeekends) {
+        for(Hotel p: listOfHotels.values()){
+            if(p.getHotelName().equals(hotelName)){
+                p.setRateRewardWeekDays(rateRewardWeekdays);
+                p.setRateRewardWeekend(rateRewardWeekends);
+            }
+        }
     }
 }
