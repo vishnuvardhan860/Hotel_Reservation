@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.HotelReservationTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-09T12:36:44" hostname="LAPTOP-OAL4VNNE" time="0.33">
+  <properties/>
+  <testcase name="givenDatesShouldReturnCheapestHotel" classname="com.bridgelabz.HotelReservationTest" time="0.328"/>
+  <testcase name="givenHotelNameAndRatesShouldReturnTrue" classname="com.bridgelabz.HotelReservationTest" time="0.001"/>
+  <system-out><![CDATA[LikeWood, Total Rates: 220
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
