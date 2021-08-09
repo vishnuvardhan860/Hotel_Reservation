@@ -35,6 +35,4 @@ public class Hotel {
     public void setRateRegularWeekend(int rateRegularWeekend) {
         this.rateRegularWeekend = rateRegularWeekend;
     }
-
-
 }
