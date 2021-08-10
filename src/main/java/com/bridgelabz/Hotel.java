@@ -1,16 +1,13 @@
 package com.bridgelabz;
+
 public class Hotel {
 
     private String hotelName;
     private int rateRegularWeekdays;
     private int rateRegularWeekend;
-    public  int ratings;
-    public  int rateRewardWeekDays;
-    public  int rateRewardWeekend;
+    public static int ratings;
 
-
-
-    public Hotel(String hotelName, int rateRegularWeekdays, int rateRegularWeekend) {
+    public Hotel(String hotelName, int rateRegularWeekdays,int rateRegularWeekend) {
         this.hotelName = hotelName;
         this.rateRegularWeekdays = rateRegularWeekdays;
         this.rateRegularWeekend = rateRegularWeekend;
@@ -40,27 +37,5 @@ public class Hotel {
         this.rateRegularWeekend = rateRegularWeekend;
     }
 
-    public int getRatings() {
-        return ratings;
-    }
 
-    public void setRatings(int ratings) {
-        this.ratings = ratings;
-    }
-
-    public int getRateRewardWeekDays() {
-        return rateRewardWeekDays;
-    }
-
-    public void setRateRewardWeekDays(int rateRewardWeekDays) {
-        this.rateRewardWeekDays = rateRewardWeekDays;
-    }
-
-    public int getRateRewardWeekend() {
-        return rateRewardWeekend;
-    }
-
-    public void setRateRewardWeekend(int rateRewardWeekend) {
-        this.rateRewardWeekend = rateRewardWeekend;
-    }
 }
